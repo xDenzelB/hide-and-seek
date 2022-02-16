@@ -28,11 +28,11 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background: linear-gradient( to left, black,white);
 }
 
 section {
-    background-color: var(--color5);
-    width: 1000px;
+    background-color: var(--color5);    
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -58,12 +58,14 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+
 }
 
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    
 }
 
 .gutter-right {
@@ -135,4 +137,27 @@ footer {
     font-size: 8rem;
     content: '😃';
     position: absolute;
+}
+
+div {
+color: white;
+
+}
+
+#tree-button {
+    background-color: green;
+    border-radius: 7px;
+    cursor:grab;
+}
+
+#boulder-button {
+    background-color: grey;
+    border-radius: 7px;
+    cursor:grab;
+}
+
+#shed-button {
+    background-color: red;
+    border-radius: 7px;
+    cursor: grab;
 }
